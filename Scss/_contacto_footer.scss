@@ -1,0 +1,73 @@
+@use 'mixins_variables' as mv;
+/*****section contacto******/
+
+.section_contacto {
+  margin-bottom: mv.$botton;
+  text-align: center;
+}
+.title_contacto {
+  @include mv.titles();
+}
+.links_contacto {
+  @include mv.flex_box(flex, space-around, center, wrap);
+  @include mv.tamaños(null, 80%);
+  margin: auto;
+  font-family: sans-serif;
+  color: mv.$color2;
+}
+.icon_contacto {
+  font-size: 2.2em;
+}
+i {
+  cursor: pointer;
+}
+.linkedin {
+  color: #0e76a8;
+  font-size: 2.2em;
+}
+.github {
+  color: #333;
+  font-size: 2.2em;
+}
+.instagram {
+  color: #3f729b;
+  font-size: 2.2em;
+}
+.youtube {
+  color: #c4302b;
+  font-size: 2.2em;
+}
+
+/*****footer****/
+.footer {
+  background-color: mv.$color1;
+  text-align: center;
+  font-family: sans-serif;
+  color: mv.$color_white;
+  padding: 10px;
+}
+.enlace {
+  color: inherit;
+}
+.proloader {
+  @include mv.tamaños(100vh, 100%);
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.7);
+  top: 0;
+  @include mv.flex_box(flex, center, center, null);
+}
+.proloader .carga {
+  @include mv.tamaños(200px, 200px);
+  border-top: 1em solid mv.$btn_blue;
+  border-left: 1em solid mv.$btn_blue;
+  border-right: 1em solid mv.$btn_blue;
+  border-bottom: 1em solid transparent;
+  border-radius: 50%;
+  animation: rotar_prolader 1s infinite linear;
+}
+
+@keyframes rotar_prolader {
+  100% {
+    transform: rotate(360deg);
+  }
+}

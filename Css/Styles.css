@@ -1,0 +1,540 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  box-shadow: -1px 3px 5px -2px rgba(0, 0, 0, 0.7);
+  color: #212529;
+  font-family: sans-serif;
+  margin-bottom: 70px;
+}
+
+.img_logo {
+  height: 60px;
+  width: 60px;
+}
+
+nav {
+  height: 50px;
+  width: 550px;
+  overflow: hidden;
+  transition: 0.6s;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #212529;
+  font-weight: bold;
+}
+
+.btn_menu {
+  font-size: 2em;
+  display: none;
+  cursor: pointer;
+}
+
+.height {
+  height: 350px;
+}
+
+/*******seccion sobre mi :S ********/
+.section_SobreMi {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 60%;
+  font-family: sans-serif;
+  margin-bottom: 100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.foto_SobreMi {
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 10px #333;
+}
+
+.text_sobre_mi {
+  width: 450px;
+  color: #24252c;
+  line-height: 1.5;
+  margin-bottom: 4.5em;
+}
+
+.Title_SobreMi {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  color: #212529;
+  text-align: center;
+  font-size: 2em;
+  width: 100%;
+}
+
+.padding {
+  padding: 10px;
+}
+
+.mas_sobre_mi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.title_mas_SobreMi {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  color: #212529;
+  text-align: center;
+  font-size: 2em;
+  width: 100%;
+  text-align: start;
+  color: #212529;
+  margin-bottom: -1em;
+  font-size: 1.7em;
+}
+
+.info_mas_sobreMi {
+  width: 400px;
+  color: #24252c;
+  line-height: 1.5;
+}
+
+.frase {
+  color: #007bff;
+}
+
+/*******seccion de presentacion******/
+.section_presentation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+  font-family: sans-serif;
+  color: #212529;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+
+h1 {
+  font-size: 2.2em;
+  margin-bottom: -50px;
+}
+
+h2 {
+  font-size: 3.7em;
+  margin-bottom: -10px;
+}
+
+h3 {
+  font-size: 1.4em;
+  margin-bottom: 30px;
+}
+
+button {
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  color: #fff;
+  margin-right: 20px;
+  font-size: 1em;
+  font-weight: normal;
+}
+
+.btn_sobre_mi {
+  background-color: #ffc107;
+}
+
+.btn_donwloaded {
+  background-color: #007bff;
+}
+
+.img_presentation {
+  height: 450px;
+  width: 500px;
+  object-fit: cover;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+/********seccion de skills******/
+.section_skills {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+
+.conte_skills {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #24252c;
+}
+
+.title_skills {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  color: #212529;
+  text-align: center;
+  font-size: 2em;
+  width: 100%;
+}
+
+.icon-skills {
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.icon {
+  font-size: 3em;
+  margin: auto;
+  margin-bottom: 10px;
+  text-shadow: 0 0 5px #222;
+  background-color: #fff;
+}
+
+.html {
+  color: #e34c26;
+}
+
+.css {
+  color: #2965f1;
+}
+
+.javascript {
+  color: #f0db4f;
+}
+
+.bootstrap {
+  color: #4402cf;
+}
+
+.sass {
+  color: #ee1d52;
+}
+
+.github {
+  color: #333;
+}
+
+/******proyectos******/
+.section_proyectos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+  margin-bottom: 100px;
+  padding: 20px;
+}
+
+.title_proyectos {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  color: #212529;
+  text-align: center;
+  font-size: 2em;
+  width: 100%;
+}
+
+.proyectos {
+  height: 340px;
+  width: 420px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #24252c;
+}
+
+.img_proyectos {
+  height: 200px;
+  width: 350px;
+}
+
+.img_temperatura2 {
+  height: 220px;
+  width: 250px;
+}
+
+.link_proyectos {
+  width: 100%;
+}
+
+.btn_demo {
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  color: #fff;
+  margin-right: 20px;
+  font-size: 1em;
+  font-weight: normal;
+  background-color: #ffc107;
+}
+
+.btn_github {
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  color: #fff;
+  margin-right: 20px;
+  font-size: 1em;
+  font-weight: normal;
+  background-color: #007bff;
+}
+
+.fab {
+  margin-right: 7px;
+}
+
+.d-block {
+  display: block;
+}
+
+/*****section contacto******/
+.section_contacto {
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.title_contacto {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  color: #212529;
+  text-align: center;
+  font-size: 2em;
+  width: 100%;
+}
+
+.links_contacto {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  font-family: sans-serif;
+  color: #24252c;
+}
+
+.icon_contacto {
+  font-size: 2.2em;
+}
+
+i {
+  cursor: pointer;
+}
+
+.linkedin {
+  color: #0e76a8;
+  font-size: 2.2em;
+}
+
+.github {
+  color: #333;
+  font-size: 2.2em;
+}
+
+.instagram {
+  color: #3f729b;
+  font-size: 2.2em;
+}
+
+.youtube {
+  color: #c4302b;
+  font-size: 2.2em;
+}
+
+/*****footer****/
+.footer {
+  background-color: #212529;
+  text-align: center;
+  font-family: sans-serif;
+  color: #fff;
+  padding: 10px;
+}
+
+.enlace {
+  color: inherit;
+}
+
+.proloader {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.7);
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.proloader .carga {
+  height: 200px;
+  width: 200px;
+  border-top: 1em solid #007bff;
+  border-left: 1em solid #007bff;
+  border-right: 1em solid #007bff;
+  border-bottom: 1em solid transparent;
+  border-radius: 50%;
+  animation: rotar_prolader 1s infinite linear;
+}
+
+@keyframes rotar_prolader {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@media (max-width: 1024px) {
+  .section_presentation {
+    flex-direction: column-reverse;
+  }
+
+  ul {
+    flex-direction: row;
+  }
+}
+@media (max-width: 812px) {
+  .btn_menu {
+    display: block;
+  }
+
+  nav {
+    width: 100%;
+    height: 0;
+  }
+
+  ul {
+    justify-content: space-around;
+    flex-direction: column;
+    height: 350px;
+  }
+
+  .section_presentation {
+    text-align: center;
+  }
+
+  .section_SobreMi {
+    width: 100%;
+    padding: 7px;
+  }
+}
+@media (max-width: 650px) {
+  .titles_presentation {
+    width: 100%;
+  }
+
+  .img_presentation {
+    width: 100%;
+  }
+
+  .img_presentation img {
+    object-fit: cover;
+  }
+}
+@media (max-width: 1024px) {
+  .section_presentation {
+    flex-direction: column-reverse;
+  }
+
+  ul {
+    flex-direction: row;
+  }
+}
+@media (max-width: 812px) {
+  .btn_menu {
+    display: block;
+  }
+
+  nav {
+    width: 100%;
+    height: 0;
+  }
+
+  ul {
+    justify-content: space-around;
+    flex-direction: column;
+    height: 350px;
+  }
+
+  .section_presentation {
+    text-align: center;
+  }
+
+  .section_SobreMi {
+    width: 100%;
+    padding: 7px;
+  }
+}
+@media (max-width: 650px) {
+  .titles_presentation {
+    width: 100%;
+  }
+
+  .img_presentation {
+    width: 100%;
+  }
+
+  .img_presentation img {
+    object-fit: cover;
+  }
+
+  .container_diamond {
+    margin: auto;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,50 @@
+/********seccion de skills******/
+@use 'mixins_variables' as mv;
+.section_skills {
+  @include mv.flex_box(flex, space-around, center, wrap);
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-bottom: mv.$botton2;
+}
+.conte_skills {
+  @include mv.flex_box(flex, space-around, center, wrap);
+  @include mv.tamaños(null, 80%);
+  margin-left: auto;
+  margin-right: auto;
+  color: mv.$color2;
+}
+.title_skills {
+  @include mv.titles();
+}
+.icon-skills {
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.icon {
+  font-size: 3em;
+  margin: auto;
+  margin-bottom: 10px;
+  text-shadow: 0 0 5px #222;
+  background-color: #fff;
+}
+.html {
+  color: #e34c26;
+}
+.css {
+  color: #2965f1;
+}
+.javascript {
+  color: #f0db4f;
+}
+.bootstrap {
+  color: #4402cf;
+}
+.sass {
+  color: #ee1d52;
+}
+.github {
+  color: #333;
+}

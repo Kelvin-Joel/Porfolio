@@ -1,0 +1,44 @@
+@use 'mixins_variables' as mv;
+
+/******proyectos******/
+.section_proyectos {
+    @include mv.flex_box(flex, space-around, center, wrap);
+    font-family: sans-serif;
+    margin-bottom: mv.$botton2;
+    padding: 20px;
+  }
+  .title_proyectos {
+    @include mv.titles();
+  }
+  .proyectos {
+    @include mv.tamaños(340px, 420px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: mv.$color2;
+  }
+  .img_proyectos {
+    @include mv.tamaños(200px, 350px);
+  }
+  .img_temperatura2 {
+    @include mv.tamaños(220px, 250px);
+  }
+  .link_proyectos {
+    width: 100%;
+  }
+  .btn_demo {
+    @include mv.buttons();
+    background-color: mv.$btn_yellow;
+  }
+  .btn_github {
+    @include mv.buttons();
+    background-color: mv.$btn_blue;
+  }
+  .fab{
+    margin-right: 7px;
+  }
+  .d-block {
+    display: block;
+  }

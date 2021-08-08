@@ -1,0 +1,43 @@
+$btn_yellow: #ffc107;
+$btn_blue: #007bff;
+$color1: #212529;
+$color2: #24252c;
+$color_white: #fff;
+$margin_bottom: -10px;
+$botton: 70px;
+$botton2: 100px;
+
+@mixin tamaños($height, $width) {
+  height: $height;
+  width: $width;
+}
+@mixin flex_box($flex, $justify_content, $align_items, $flex_wrap) {
+  display: $flex;
+  justify-content: $justify_content;
+  align-items: $align_items;
+  flex-wrap: $flex_wrap;
+}
+@mixin buttons() {
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  color: #fff;
+  margin-right: 20px;
+  font-size: 1em;
+  font-weight: normal;
+}
+@mixin titles {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  color: $color1;
+  text-align: center;
+  font-size: 2em;
+  @include tamaños(null, 100%);
+}
+
+
+
+
+
+

@@ -1,0 +1,39 @@
+@use 'mixins_variables' as mv;
+/*******seccion de presentacion******/
+.section_presentation {
+    @include mv.flex_box(flex, space-around, center, wrap);
+    @include mv.tamaños(null, 100%);
+    margin: auto;
+    font-family: sans-serif;
+    color: mv.$color1;
+    font-weight: bold;
+    margin-bottom: mv.$botton2;
+  }
+  h1 {
+    font-size: 2.2em;
+    margin-bottom: -50px;
+  }
+  h2 {
+    font-size: 3.7em;
+    margin-bottom: mv.$margin_bottom;
+  }
+  h3 {
+    font-size: 1.4em;
+    margin-bottom: 30px;
+  }
+  button {
+    @include mv.buttons();
+  }
+  .btn_sobre_mi {
+    background-color: mv.$btn_yellow;
+  }
+  .btn_donwloaded {
+    background-color: mv.$btn_blue;
+  }
+  .img_presentation {
+    @include mv.tamaños(450px, 500px);
+    object-fit: cover;
+  }
+  img {
+    @include mv.tamaños(100%, 100%);
+  }
