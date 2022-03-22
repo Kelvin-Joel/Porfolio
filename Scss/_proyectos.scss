@@ -5,7 +5,7 @@
     @include mv.flex_box(flex, space-around, center, wrap);
     font-family: sans-serif;
     margin-bottom: mv.$botton2;
-    padding: 20px;
+    padding: 5em 20px;
   }
   .title_proyectos {
     @include mv.titles();
@@ -24,6 +24,11 @@
   }
   .img_temperatura2 {
     @include mv.tamaños(220px, 250px);
+  }
+  .img_task{
+    width: 250px;
+    height: 200px;
+    background-size: cover;
   }
   .link_proyectos {
     width: 100%;

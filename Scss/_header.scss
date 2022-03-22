@@ -15,6 +15,9 @@ html {
     color: mv.$color1;
     font-family: sans-serif;
     margin-bottom: mv.$botton;
+    position: fixed;
+    width: 100%;
+    background-color: #fff
   }
   .img_logo {
     @include mv.tamaños(60px, 60px);
@@ -45,5 +48,8 @@ html {
   }
   .height {
     height: 350px;
+  }
+  i{
+    margin-right: .5em;
   }
   

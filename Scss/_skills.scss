@@ -5,6 +5,7 @@
   font-family: sans-serif;
   font-weight: bold;
   margin-bottom: mv.$botton2;
+  padding-top: 5em;
 }
 .conte_skills {
   @include mv.flex_box(flex, space-around, center, wrap);
@@ -27,7 +28,6 @@
   font-size: 3em;
   margin: auto;
   margin-bottom: 10px;
-  text-shadow: 0 0 5px #222;
   background-color: #fff;
 }
 .html {
@@ -47,4 +47,7 @@
 }
 .github {
   color: #333;
+}
+.react{
+  color:cyan;
 }

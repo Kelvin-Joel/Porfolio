@@ -7,9 +7,7 @@
     <title>Porfolio</title>
     <link
       rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
     <link rel="stylesheet" href="Css/Styles.css" />
   </head>
@@ -41,9 +39,12 @@
             <a href="#proyectos"><i class="fas fa-project-diagram"></i> Proyectos</a>
           </li>
           <li>
-            <a href="#contacto"><i class="far fa-id-card"></i> Contacto</a>
+            <a href="#experimentos"><i class="fa-solid fa-flask"></i>Experimentos</a>
           </li>
         </ul>
+          <li>
+            <a href="#contacto"><i class="far fa-id-card"></i> Contacto</a>
+          </li>
       </nav>
     </header>
 
@@ -62,8 +63,6 @@
       </div>
     </section>
 
-
-
     <section class="section_SobreMi" id="sobremi">
         <div class="padding">
           <img src="/Img/FOTO.jpg" class="foto_SobreMi" alt="">
@@ -72,7 +71,6 @@
            <h2 class="Title_SobreMi">Sobre Mi</h2>
            <p>Soy Técnico En Computación E Informatica Y Actualmente Me Especializo En El Desarrollo Web, Soy Totalmanente Autodidacta Y Un Apasionado Por La Tecnología Y El Desarrollo Web. </p>
         </div>
-           
     </section>
 
     <section class="section_skills" id="skills">
@@ -80,12 +78,12 @@
       <div class="conte_skills">
         <span class=" icon-skills">
           <i class="icon fab fa-html5 html"></i>
-          <p class="">Html</p>
+          <p>Html</p>
         </span>
 
         <span class="icon-skills">
           <i class="icon fab fa-css3-alt css"></i>
-          <p class="">Css</p>
+          <p>Css</p>
         </span>
 
         <span class="icon-skills">
@@ -107,6 +105,11 @@
           <i class="icon fab fa-github github"></i>
           <p>GitHub</p>
         </span>
+
+        <span class="icon-skills">
+          <i class="icon fa-brands fa-react react"></i>
+          <p>React</p>
+        </span>
       </div>
     </section>
 
@@ -115,11 +118,11 @@
       <h4 class=" title_proyectos">Proyectos</h1>
   
         <article class="proyectos">
-        <img src="/Img/web%20restaurant.png" class="img_proyectos" alt="" />
-        <h5 class="descritpion_proyectos">Web De Restaurante</h5>
+        <img src="/Img/web hallowen.png" class="img_proyectos" alt="" />
+        <h5 class="descritpion_proyectos">Web De Halloween</h5>
         <div class="links_proyectos">
-          <a href="https://pedantic-shannon-fab8ba.netlify.app/" class="btn_demo" target="_blank">Demo</a>
-          <a href="https://github.com/Kelvin-Joel/Web-Restaurant.git" class="btn_github" target="_blank">
+          <a href="https://kelvin-joel.github.io/Web-Halloween/#section_trick_or_treat" class="btn_demo" target="_blank">Demo</a>
+          <a href="https://github.com/Kelvin-Joel/Web-Halloween.git" class="btn_github" target="_blank">
           <i class="fab fa-github"></i>GitHub
           </a>
       </div> 
@@ -146,9 +149,10 @@
       </article>
 
       <article class="proyectos">
-        <img src="/Img/imagen_proyecto2.png" class="img_proyectos" alt="" />
+        <img src="/Img/TASK.PNG" class="img_task" alt="" />
         <h5 class="descritpion_proyectos">Crud Local Store JavaScript</h5>
-        <a href="https://github.com/Kelvin-Joel/Crud-LocalStore-JavaScript.git" class="btn_github d-block" target="_blank">
+        <a href="https://affectionate-ardinghelli-65be0d.netlify.app/" target="_blank" class="btn_demo">Demo</a>
+        <a href="https://github.com/Kelvin-Joel/Crud-LocalStore-JavaScript.git" class="btn_github" target="_blank">
           <i class="fab fa-github"></i>GitHub
         </a> 
       </article>
@@ -172,9 +176,31 @@
       </article>      
     </section>
 
+    <!-------------------------Experimentos----------------->
+    <section class="experimentos" id="experimentos">
+      <h5 class="title">Experimentos</h5>
+      <div class="lista__experimentos">
+        <article class="">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/TVsNbazMCSA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </article>
+  
+        <article>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/zE4MFMhsV0E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </article>
+
+        <article>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/k_NPCqzTt8c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </article>
+
+        <article>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/NI4t9RMlaGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </article>
+      </div>
+    </section>
+
     <!------------------------contactos----------------------->
     <section class="section_contacto" id="contacto">
-      <h5 class="title_contacto">Contacto</h5>
+      <h6 class="title_contacto">Contacto</h6>
       <div
         class="links_contacto">
 
@@ -207,6 +233,8 @@
       
       </div>
     </section>
+
+   
 
     <!----------------footer--------------------------->
     <footer class="footer">

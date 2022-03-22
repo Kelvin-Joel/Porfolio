@@ -20,6 +20,9 @@ body {
   color: #212529;
   font-family: sans-serif;
   margin-bottom: 70px;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
 }
 
 .img_logo {
@@ -65,6 +68,10 @@ a {
   height: 350px;
 }
 
+i {
+  margin-right: 0.5em;
+}
+
 /*******seccion sobre mi :S ********/
 .section_SobreMi {
   display: flex;
@@ -76,6 +83,7 @@ a {
   margin-bottom: 100px;
   margin-right: auto;
   margin-left: auto;
+  padding-top: 5em;
 }
 
 .foto_SobreMi {
@@ -149,6 +157,7 @@ a {
   color: #212529;
   font-weight: bold;
   margin-bottom: 100px;
+  padding-top: 8em;
 }
 
 h1 {
@@ -205,6 +214,7 @@ img {
   font-family: sans-serif;
   font-weight: bold;
   margin-bottom: 100px;
+  padding-top: 5em;
 }
 
 .conte_skills {
@@ -239,7 +249,6 @@ img {
   font-size: 3em;
   margin: auto;
   margin-bottom: 10px;
-  text-shadow: 0 0 5px #222;
   background-color: #fff;
 }
 
@@ -267,6 +276,10 @@ img {
   color: #333;
 }
 
+.react {
+  color: cyan;
+}
+
 /******proyectos******/
 .section_proyectos {
   display: flex;
@@ -275,7 +288,7 @@ img {
   flex-wrap: wrap;
   font-family: sans-serif;
   margin-bottom: 100px;
-  padding: 20px;
+  padding: 5em 20px;
 }
 
 .title_proyectos {
@@ -306,6 +319,12 @@ img {
 .img_temperatura2 {
   height: 220px;
   width: 250px;
+}
+
+.img_task {
+  width: 250px;
+  height: 200px;
+  background-size: cover;
 }
 
 .link_proyectos {
@@ -342,6 +361,27 @@ img {
 
 .d-block {
   display: block;
+}
+
+.experimentos {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  color: #212529;
+  text-align: center;
+  font-size: 2em;
+  width: 100%;
+  padding: 1em;
+}
+
+.lista__experimentos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.lista__experimentos article {
+  margin-bottom: 2em;
 }
 
 /*****section contacto******/

@@ -1,0 +1,12 @@
+@use './mixins_variables';
+
+.experimentos{
+    @include mixins_variables.titles;
+    padding:  1em;
+}
+.lista__experimentos{
+    @include mixins_variables.flex_box(flex, space-around, center, wrap);
+}
+.lista__experimentos article{
+    margin-bottom: 2em;
+}
