@@ -302,7 +302,7 @@ img {
 
 .proyectos {
   height: 340px;
-  width: 420px;
+  width: 400px;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -319,6 +319,18 @@ img {
 .img_temperatura2 {
   height: 220px;
   width: 250px;
+}
+
+.img_pixabay {
+  height: 220px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.size_xl {
+  height: 220px;
+  width: 100%;
+  object-fit: cover;
 }
 
 .img_task {

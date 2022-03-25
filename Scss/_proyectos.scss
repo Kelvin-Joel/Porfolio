@@ -11,7 +11,7 @@
     @include mv.titles();
   }
   .proyectos {
-    @include mv.tamaños(340px, 420px);
+    @include mv.tamaños(340px, 400px);
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -24,6 +24,14 @@
   }
   .img_temperatura2 {
     @include mv.tamaños(220px, 250px);
+  }
+  .img_pixabay{
+    @include mv.tamaños(220px, 100%);
+    object-fit: cover;
+  }
+  .size_xl{
+    @include mv.tamaños(220px,100%);
+    object-fit: cover;
   }
   .img_task{
     width: 250px;
