@@ -6,6 +6,7 @@
   font-weight: bold;
   margin-bottom: mv.$botton2;
   padding-top: 5em;
+  
 }
 .conte_skills {
   @include mv.flex_box(flex, space-around, center, wrap);

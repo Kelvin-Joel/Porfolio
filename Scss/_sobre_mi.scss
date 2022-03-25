@@ -4,7 +4,6 @@
     @include mv.flex_box(flex, space-around, center, wrap);
     @include mv.tamaños(null, 60%);
     font-family: sans-serif;
-    margin-bottom: mv.$botton2;
     margin-right: auto;
     margin-left: auto;
     padding-top: 5em;
