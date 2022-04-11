@@ -1,3 +1,5 @@
+@use 'mixins_variables' as mv;
+
 @media (max-width: 1024px) {
   .section_presentation {
     flex-direction: column-reverse;
@@ -26,6 +28,12 @@
   .section_SobreMi {
     width: 100%;
     padding: 7px;
+  }
+  .proyectos{
+    margin: 0 auto 1.7em;
+  }
+  .size_xl{
+    @include mv.tamaños(200px,100%);
   }
 }
 
