@@ -2,21 +2,21 @@
 
 /******proyectos******/
 .section_proyectos {
-    @include mv.flex_box(flex, space-between, null, wrap);
+    @include mv.flex_box(flex, space-around, center, wrap);
     font-family: sans-serif;
     margin-bottom: mv.$botton2;
-    padding:.5em;
+    padding: 5em 20px;
   }
   .title_proyectos {
     @include mv.titles();
   }
   .proyectos {
-    @include mv.tamaños(null, 550px);
+    @include mv.tamaños(340px, 400px);
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     text-align: center;
-    margin-bottom: 2em;
+    margin-bottom: 20px;
     color: mv.$color2;
   }
   .img_proyectos {
@@ -26,7 +26,7 @@
     @include mv.tamaños(220px, 250px);
   }
   .size_xl{
-    @include mv.tamaños(300px,100%);
+    @include mv.tamaños(220px,100%);
     object-fit: cover;
     border-radius: 3px;
   }
@@ -35,12 +35,8 @@
     height: 200px;
     background-size: cover;
   }
-  .description_proyectos{
-    font-size: 1.3em;
-  }
-  .links_proyectos {
+  .link_proyectos {
     width: 100%;
-    margin-bottom: 1em;
   }
   .btn_demo {
     @include mv.buttons();

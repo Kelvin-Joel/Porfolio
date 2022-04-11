@@ -281,11 +281,12 @@ img {
 /******proyectos******/
 .section_proyectos {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
   flex-wrap: wrap;
   font-family: sans-serif;
   margin-bottom: 100px;
-  padding: 0.5em;
+  padding: 5em 20px;
 }
 
 .title_proyectos {
@@ -298,12 +299,13 @@ img {
 }
 
 .proyectos {
-  width: 550px;
+  height: 340px;
+  width: 400px;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
   text-align: center;
-  margin-bottom: 2em;
+  margin-bottom: 20px;
   color: #24252c;
 }
 
@@ -318,7 +320,7 @@ img {
 }
 
 .size_xl {
-  height: 300px;
+  height: 220px;
   width: 100%;
   object-fit: cover;
   border-radius: 3px;
@@ -330,13 +332,8 @@ img {
   background-size: cover;
 }
 
-.description_proyectos {
-  font-size: 1.3em;
-}
-
-.links_proyectos {
+.link_proyectos {
   width: 100%;
-  margin-bottom: 1em;
 }
 
 .btn_demo {
@@ -518,15 +515,6 @@ i {
   .section_SobreMi {
     width: 100%;
     padding: 7px;
-  }
-
-  .proyectos {
-    margin: 0 auto 1.7em;
-  }
-
-  .size_xl {
-    height: 200px;
-    width: 100%;
   }
 }
 @media (max-width: 650px) {
