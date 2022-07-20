@@ -1,27 +1,25 @@
 @use 'mixins_variables' as mv;
 /*******seccion sobre mi :S ********/
 .section_SobreMi {
-    @include mv.flex_box(flex, space-around, center, wrap);
-    @include mv.tamaños(null, 60%);
+    @include mv.flex_box(flex, space-between, center, wrap);
+    @include mv.tamaños(null, 70%);
     font-family: sans-serif;
     margin-right: auto;
     margin-left: auto;
-    padding-top: 5em;
-   
   }
   .foto_SobreMi {
-    @include mv.tamaños(170px, 170px);
-    border-radius: 50%;
+    @include mv.tamaños(220px, 220px);
+    border-radius: 50%; 
     object-fit: cover;
   }
   .text_sobre_mi {
-    width: 450px;
-    color: mv.$color2;
+    width: 70%;
+    color: mv.$color_white;
     line-height: 1.5;
-    margin-bottom: 4.5em;
   }
   .Title_SobreMi {
     @include mv.titles();
+    font-weight: normal
   }
   .padding {
     padding: 10px;
@@ -33,15 +31,12 @@
   .title_mas_SobreMi{
     @include mv.titles();
     text-align: start;
-    color: mv.$color1;
     margin-bottom: -1em;
     font-size: 1.7em;
+    
   }
   .info_mas_sobreMi{
     @include mv.tamaños(null, 400px);
-    color: mv.$color2;
+    color: mv.$color_white;
     line-height: 1.5;
-  }
-  .frase{
-    color: mv.$btn_blue;
   }

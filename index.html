@@ -1,251 +1,291 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Porfolio</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    />
-    <link rel="stylesheet" href="Css/Styles.css" />
-  </head>
-  <body id="body">
 
-    <header class="header" id="header">
-      <span class="logo">
-        <img src="/Img/loogo.svg" class="img_logo" alt="">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Porfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="stylesheet" href="Css/Styles.css" />
+</head>
+
+<body id="body">
+
+  <header class="header" id="header">
+    <span class="logo">
+      <img src="/Img/LOGO PROGRAMADOR.png" class="img_logo" alt="">
+    </span>
+
+    <!-----btn---->
+    <span class="btn_menu" id="btn_menu">
+      <i class="fas fa-bars" id="btn_icon_menu"></i>
+    </span>
+
+    <!------menu------>
+    <nav class="navbar" id="navbar">
+      <ul>
+        <li>
+          <a href="#"><i class="fas fa-home"></i> Inicio</a>
+        </li>
+        <li>
+          <a href="#sobremi"><i class="fas fa-user-alt"></i> Sobre Mi</a>
+        </li>
+        <li>
+          <a href="#skills"><i class="fas fa-chalkboard-teacher"></i> Habilidades</a>
+        </li>
+        <li>
+          <a href="#proyectos"><i class="fas fa-project-diagram"></i> Proyectos</a>
+        </li>
+        <li>
+          <a href="#experimentos"><i class="fa-solid fas fa-flask"></i>Experimentos</a>
+        </li>
+      </ul>
+      <li>
+        <a href="#contacto"><i class="far fas fa-id-card"></i> Contacto</a>
+      </li>
+    </nav>
+  </header>
+
+  <section class="section_presentation">
+    <div class="titles_presentation">
+      <h1>Hola Yo Soy :</h1>
+      <h2>Joel Ventura</h2>
+      <h3 class="skills">|Front-End Developer|</h3>
+      <div class=" btn_portada">
+        <a href="#sobremi" class="btn_sobremi">Sobre Mi</a>
+        <a href="CV/CV.pdf" target="_blank" download="" class="btn_download">Descargar CV <i
+            class="fa-solid fa-download"></i></a>
+      </div>
+    </div>
+    <div class="img_presentation">
+      <img src="img/image.png" alt="">
+    </div>
+  </section>
+
+  <section class="section_SobreMi" id="sobremi">
+    <h2 class="Title_SobreMi">SOBRE <span class="crimson">MI</span> </h2>
+    <div class="padding">
+      <img src="/Img/FOTO.jpg" class="foto_SobreMi" alt="">
+    </div>
+    <div class="text_sobre_mi padding">
+
+      <p>Soy Técnico En Computación E Informatica Y Actualmente Me Especializo En El Desarrollo Web, Soy Totalmanente
+        Autodidacta Y Un Apasionado Por La Tecnología Y La Programación.
+        </p>
+    </div>
+  </section>
+
+  <section class="section_skills" id="skills">
+    <h3 class="title_skills">MIS <span class="crimson">HABILIDADES</span> </h3>
+    <div class="conte_skills">
+      <span class=" icon-skills">
+        <img class="icon-skill" src="./Img/icon-1.png" alt="">
+        <p>Html</p>
       </span>
 
-      <!-----btn---->
-      <span class="btn_menu" id="btn_menu">
-        <i class="fas fa-bars" id="btn_icon_menu"></i>
+      <span class="icon-skills">
+        <img class="icon-skill" src="./Img/icon-2.png" alt="">
+        <p>Css</p>
       </span>
 
-      <!------menu------>
-      <nav class="navbar" id="navbar">
-        <ul>
-          <li>
-            <a href="#"><i class="fas fa-home"></i> Inicio</a>
-          </li>
-          <li>
-            <a href="#sobremi"><i class="fas fa-user-alt"></i> Sobre Mi</a>
-          </li>
-          <li>
-            <a href="#skills"><i class="fas fa-chalkboard-teacher"></i> Skills</a>
-          </li>
-          <li>
-            <a href="#proyectos"><i class="fas fa-project-diagram"></i> Proyectos</a>
-          </li>
-          <li>
-            <a href="#experimentos"><i class="fa-solid fa-flask"></i>Experimentos</a>
-          </li>
-        </ul>
-          <li>
-            <a href="#contacto"><i class="far fa-id-card"></i> Contacto</a>
-          </li>
-      </nav>
-    </header>
+      <span class="icon-skills">
+        <img class="icon-skill" src="./Img/icon-3.png" alt="">
+        <p>JavaScript</p>
+      </span>
 
-    <section class="section_presentation">
-      <div class="titles_presentation">
-        <h1>Hola Yo Soy :</h1>
-        <h2>Joel Ventura Huancas</h2>
-        <h3>|Front End Developer|</h3>
-        <div class=" btn_portada">
-          <a href="#sobremi" class="btn_demo">Sobre Mi</a>
-          <a href="CV/CV.pdf" target="_blank" download="" class="btn_github">Donwload CV</a>
-        </div>
-      </div>
-      <div class="img_presentation">
-          <img src="img/image.jpg" alt="">
-      </div>
-    </section>
+      <span class="icon-skills">
+        <img class="icon-skill sass" src="./Img/icon-4.png" alt="">
+        <p>Sass</p>
+      </span>
 
-    <section class="section_SobreMi" id="sobremi">
-        <div class="padding">
-          <img src="/Img/FOTO.jpg" class="foto_SobreMi" alt="">
-        </div>
-        <div class="text_sobre_mi padding">
-           <h2 class="Title_SobreMi">Sobre Mi</h2>
-           <p>Soy Técnico En Computación E Informatica Y Actualmente Me Especializo En El Desarrollo Web, Soy Totalmanente Autodidacta Y Un Apasionado Por La Tecnología Y El Desarrollo Web. </p>
-        </div>
-    </section>
+      <span class="icon-skills">
+        <img class="icon-skill react" src="./Img/bootstrap.png" alt="">
+        <p>Bootstrap</p>
+      </span>
 
-    <section class="section_skills" id="skills">
-      <h3 class="title_skills">My skills</h3>
-      <div class="conte_skills">
-        <span class=" icon-skills">
-          <i class="icon fab fa-html5 html"></i>
-          <p>Html</p>
-        </span>
+      <span class="icon-skills">
+        <img class="icon-skill react" src="./Img/icon-6.png" alt="">
+        <p>React</p>
+      </span>
+    </div>
+  </section>
 
-        <span class="icon-skills">
-          <i class="icon fab fa-css3-alt css"></i>
-          <p>Css</p>
-        </span>
+  <!--------------------proyectos------------------------>
+  <section class="section_proyectos" id="proyectos">
+    <h4 class=" title_proyectos">MIS <span class="crimson">TRABAJOS</span></h1>
 
-        <span class="icon-skills">
-          <i class="icon fab fa-js-square javascript"></i>
-          <p>JavaScript</p>
-        </span>
-
-        <span class="icon-skills">
-          <i class="icon fab fa-bootstrap bootstrap"></i>
-          <p>bootstrap</p>
-        </span>
-
-        <span class="icon-skills">
-          <i class="icon fab fa-sass sass"></i>
-          <p>Sass</p>
-        </span>
-
-        <span class="icon-skills">
-          <i class="icon fab fa-github github"></i>
-          <p>GitHub</p>
-        </span>
-
-        <span class="icon-skills">
-          <i class="icon fa-brands fa-react react"></i>
-          <p>React</p>
-        </span>
-      </div>
-    </section>
-
-     <!--------------------proyectos------------------------>
-     <section class="section_proyectos" id="proyectos">
-      <h4 class=" title_proyectos">Proyectos</h1>
+      <div class="grid">
+        <article class="proyectos">
+          <img src="/Img/web halowen.png" class="web_halloween" alt="" />
+          <div class="descripcion">
+            <h5 class="descritpion_proyectos">Web De Halloween</h5>
+            <p>Web Inspirada En Halloween,construida con tecnologías como, Html,Css & JavaScript </p>
+         <div class="links_proyectos">
+          
+            <a href="https://kelvin-joel.github.io/Web-Halloween/#section_trick_or_treat" class="btn_demo"
+              target="_blank">Demo</a>
+            <a href="https://github.com/Kelvin-Joel/Web-Halloween.git" class="btn_github" target="_blank">
+              <i class="fab fa-github"></i>GitHub
+            </a>
+          </div>
+          </div>
+        </article>
+  
+        <article class="proyectos cart_buy">
+          <img src="./Img/shoppin card.png" class="shoppin_card" alt="" />
+          <div class="descripcion">
+            <h5 class="descritpion_proyectos">Carrito De Compras</h5>
+            <p>Carritos de compras, Construido Con Tecnologías Como React.js </p>
+          <div class="links_proyectos ">
+          
+            <a href="https://carrito-de-compras-1ecf0v0nz-joelventura.vercel.app/" class="btn_demo"
+              target="_blank">Demo</a>
+            <a href="https://github.com/Kelvin-Joel/Web-De-Postres-Y-Dulces.git" class="btn_github" target="_blank">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+          </div>
+        </article>
   
         <article class="proyectos">
-        <img src="/Img/web hallowen.png" class="size_xl" alt="" />
-        <h5 class="descritpion_proyectos">Web De Halloween</h5>
-        <div class="links_proyectos">
-          <a href="https://kelvin-joel.github.io/Web-Halloween/#section_trick_or_treat" class="btn_demo" target="_blank">Demo</a>
-          <a href="https://github.com/Kelvin-Joel/Web-Halloween.git" class="btn_github" target="_blank">
-          <i class="fab fa-github"></i>GitHub
-          </a>
-      </div> 
-      </article>
-      
-       <article class="proyectos ">
-        <img src="./Img/shoppin_card.png" class="size_xl" alt="" />
-        <h5 class="descritpion_proyectos">Carrito De Compras</h5>   
-        <div class="links_proyectos ">
-          <a href="https://carrito-de-compras-1ecf0v0nz-joelventura.vercel.app/" class="btn_demo" target="_blank">Demo</a>
-          <a href="https://github.com/Kelvin-Joel/Web-De-Postres-Y-Dulces.git" class="btn_github" target="_blank">
-          <i class="fab fa-github"></i> GitHub
-        </a>
-        </div> 
-      </article>
-      
-      <article class="proyectos">
-         <img src="Img/pixabay.png" class="size_xl" alt="" /> 
-        <div class="img_project"></div>
-        <h5 class="descritpion_proyectos">Buscador De Imagenes PixaBay</h5>
-        <a href="https://buscador-de-imagenes-ten.vercel.app/" class="btn_demo" target="_blank">Demo</a>
-        <a href="https://github.com/Kelvin-Joel/Aplicacion-De-Clima-2.git" class="btn_github" target="_blank">
-          <i class="fab fa-github"></i>GitHub
-        </a> 
-      </article>
-
-      <article class="proyectos">
-        <img src="/Img/TASK.PNG" class="img_task" alt="" />
-        <h5 class="descritpion_proyectos">Crud Local Store JavaScript</h5>
-        <a href="https://affectionate-ardinghelli-65be0d.netlify.app/" target="_blank" class="btn_demo">Demo</a>
-        <a href="https://github.com/Kelvin-Joel/Crud-LocalStore-JavaScript.git" class="btn_github" target="_blank">
-          <i class="fab fa-github"></i>GitHub
-        </a> 
-      </article>
-
-      <article class="proyectos">
-        <img src="/Img/img_proyecto3.png" class="img_temperatura2" alt="" />
-        <h5 class="descritpion_proyectos">Aplicacion De Clima 2</h5>
-          <a href="https://github.com/Kelvin-Joel/App-Clima-Api.git" class="btn_github d-block" target="_blank">
-          <i class="fab fa-github"></i>GitHub
-        </a> 
-      </article> 
-      <article class="proyectos">
-        <img src="/Img/memorisando.png" class="img_proyectos mb-4" alt="" />
-        <h3 class="descritpion_proyectos">Juego Memorizando</h3>
-        <div class="links_proyectos">
-          <a href="https://pedantic-shannon-fab8ba.netlify.app/" class="btn_demo" target="_blank">Demo</a>
-          <a href="https://github.com/Kelvin-Joel/Web-Restaurant.git" class="btn_github" target="_blank">
-          <i class="fab fa-github"></i>GitHub
-          </a>
-      </div> 
-      </article>      
-    </section>
-
-    <!-------------------------Experimentos----------------->
-    <section class="experimentos" id="experimentos">
-      <h5 class="title">Experimentos</h5>
-      <div class="lista__experimentos">
-        <article class="">
-          <iframe width="350" height="230" src="https://www.youtube.com/embed/TVsNbazMCSA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <img src="Img/pixaby.png" class="size_xl" alt="" />
+  
+          <div class="descripcion">
+            <h5 class="descritpion_proyectos">Buscador De Imagenes PixaBay</h5>
+            <p>Realiza búsquedas de tus imágenes preferidas, donde nos apoyamos de la api de pixabay, para realizar consultas y consumir los datos!</p>
+            <a href="https://buscador-de-imagenes-ten.vercel.app/" class="btn_demo" target="_blank">Demo</a>
+            <a href="https://github.com/Kelvin-Joel/Aplicacion-De-Clima-2.git" class="btn_github" target="_blank">
+              <i class="fab fa-github"></i>GitHub
+            </a>
+          </div>
         </article>
   
-        <article>
-          <iframe width="350" height="230" src="https://www.youtube.com/embed/zE4MFMhsV0E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <article class="proyectos app_task">
+          <img src="/Img/TASK.png" class="img_task" alt="" />
+          <div class="descripcion">
+            <h5 class="descritpion_proyectos">Crud Local Store JavaScript</h5>
+           <p>Crud Local Storage, en esta app podrás registrar todas tus tareas pendientes a realizar los datos permanecen almacenados permanentemente</p>
+            <a href="https://affectionate-ardinghelli-65be0d.netlify.app/" target="_blank" class="btn_demo">Demo</a>
+            <a href="https://github.com/Kelvin-Joel/Crud-LocalStore-JavaScript.git" class="btn_github" target="_blank">
+              <i class="fab fa-github"></i>GitHub
+            </a>
+          </div>
         </article>
-
-        <article>
-          <iframe width="350" height="230" src="https://www.youtube.com/embed/k_NPCqzTt8c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </article>
-
-        <article>
-          <iframe width="350" height="230" src="https://www.youtube.com/embed/NI4t9RMlaGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <article class="proyectos">
+          <img src="/Img/memorisando.png" class="img_proyectos mb-4" alt="" />
+         <div class="descripcion">
+          <h3 class="descritpion_proyectos">Juego Memorizando</h3>
+          <p>Juego Memorizando, pon a prueba tu mente con este increíble juego, descubre y encuentra la imagen que coincida con la seleccionada!</p>
+          <div class="links_proyectos">
+            <a href="https://pedantic-shannon-fab8ba.netlify.app/" class="btn_demo" target="_blank">Demo</a>
+            <a href="https://github.com/Kelvin-Joel/Web-Restaurant.git" class="btn_github" target="_blank">
+              <i class="fab fa-github"></i>GitHub
+            </a>
+         </div>
+          </div>
         </article>
       </div>
-    </section>
+  </section>
 
-    <!------------------------contactos----------------------->
-    <section class="section_contacto" id="contacto">
-      <h6 class="title_contacto">Contacto</h6>
-      <div
-        class="links_contacto">
+  <!-------------------------Experimentos----------------->
+  <section class="experimentos" id="experimentos">
+    <h5 class="title_experimentos">MIS <span class="crimson">EXPERIMENTOS</span></h5>
+    <div class="parent_box" id="parent_box">
+      <!------------------------------------------------->
+      <div class="box__experimentos ">
+        <img src="Img/x-ray.PNG" class="xray" alt="">
+        <div class="link_experimentos">
+          <a href="https://codepen.io/joelkelvin-vh/pen/zYKJvJZ" target="_blank" class="button_links"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
+            <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd" />
+          </svg> Ver Demostración</a>
+        </div>
+      </div>
+      <!------------------------------------------------->
+      
+      <!------------------------------------------------->
+      <div class="box__experimentos ">
+        <img src="Img/ojo3d.PNG" class="eyes" alt="">
+        <div class="link_experimentos">
+          <a href="https://codepen.io/joelkelvin-vh/pen/XWZEeyb" target="_blank" class="button_links"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
+            <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd" />
+          </svg> Ver Demostración</a>
+        </div>
+      </div>
+      <!------------------------------------------------->
 
-          <span class="icon-skills ">
+      <!------------------------------------------------->
+      <div class="box__experimentos ">
+        <img src="Img/menu.png" class="xray" alt="">
+        <div class="link_experimentos">
+          <a href="https://codepen.io/joelkelvin-vh/pen/oNWyNeb" target="_blank" class="button_links"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
+            <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd" />
+          </svg> Ver Demostración</a>
+        </div>
+      </div>
+      <!------------------------------------------------->
+
+       <!------------------------------------------------->
+       <div class="box__experimentos">
+        <img src="Img/RUEDA3D.PNG" class="xray" alt="">
+        <div class="link_experimentos">
+          <a href="https://codepen.io/joelkelvin-vh/pen/dydxpmm" target="_blank" class="button_links"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
+            <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd" />
+          </svg> Ver Demostración</a>
+        </div>
+      </div>
+      <!------------------------------------------------->
+  </section>
+
+  <!------------------------contactos----------------------->
+  <section class="section_contacto" id="contacto">
+    <h6 class="title_contacto">Conta<span class="crimson">cto</span> </h6>
+    <div class="links_contacto">
+
+      <span class="icon">
         <a href="https://www.linkedin.com/in/joelventura19/" target="_blank" class="fab fa-linkedin linkedin">
         </a>
-          <p class="">Linkedin</p>
-        </span>
-          
-        <span class="icon-skills">
-          <a href="https://www.instagram.com/joelkelvinvh/" target="_blank" class="icon-contacto">
+        <p class="">Linkedin</p>
+      </span>
+
+      <span class="icon">
+        <a href="https://www.instagram.com/joelkelvinvh/" target="_blank" class="icon-contacto">
           <i class="fab fa-instagram instagram"></i>
         </a>
-          <p class="">Instagram</p>
-        </span>
-          
-           <span class="icon-skills">
-          <a href="https://github.com/Kelvin-Joel" class="icon-contacto" target="_blank">
+        <p class="">Instagram</p>
+      </span>
+
+      <span class="icon">
+        <a href="https://github.com/Kelvin-Joel" class="icon-contacto" target="_blank">
           <i class="fab fa-github github"></i>
         </a>
-          <p class="">GitHub</p>
-        </span>
+        <p class="">GitHub</p>
+      </span>
 
-          <span class="icon-skills ">
-          <a href="https://www.youtube.com/user/joelventura76/featured" class="icon-contacto" target="_blank">
+      <span class="icon">
+        <a href="https://www.youtube.com/user/joelventura76/featured" class="icon-contacto" target="_blank">
           <i class="fab fa-youtube youtube"></i>
         </a>
-          <p class="">Youtube</p>
-        </span>
-      
-      </div>
-    </section>
+        <p class="">Youtube</p>
+      </span>
 
-   
-
-    <!----------------footer--------------------------->
-    <footer class="footer">
-      <p>Desarrollador Web : Joel Ventura</p>
-      <p>Todos Los Derechos Reservados ©</p>
-    </footer>
-
-    <div class="proloader" id="proloader">
-      <div class="carga"></div>
     </div>
-    <script src="App/app.js"></script>
-  </body>
+  </section>
+  
+  <!----------------footer--------------------------->
+  <footer class="footer">
+    <p>Desarrollador Web : Joel Ventura</p>
+    <p>Todos Los Derechos Reservados ©</p>
+  </footer>
+
+  <div class="proloader" id="proloader">
+    <div class="carga"></div>
+  </div>
+  <script src="App/app.js"></script>
+</body>
+
 </html>

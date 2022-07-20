@@ -34,6 +34,5 @@ btn_menu.addEventListener('click',(e)=>{
     menu.classList.toggle('scale')
 })
 
-const VerificationMenu=(e)=>{
-    console.log(e.target.classList.contains('link'))
-}
+
+

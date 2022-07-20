@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap");
 * {
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 html {
@@ -9,6 +11,21 @@ html {
 body {
   margin: 0;
   position: relative;
+  background-color: #0d0d0d;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+button {
+  outline: none;
+  border: none;
 }
 
 .header {
@@ -17,12 +34,13 @@ body {
   align-items: center;
   flex-wrap: wrap;
   box-shadow: -1px 3px 5px -2px rgba(0, 0, 0, 0.7);
-  color: #212529;
-  font-family: sans-serif;
+  color: #fff;
   margin-bottom: 70px;
-  position: fixed;
+  position: sticky;
   width: 100%;
-  background-color: #fff;
+  background-color: #1a1a1a;
+  z-index: 500;
+  top: 0;
 }
 
 .img_logo {
@@ -32,7 +50,7 @@ body {
 
 nav {
   height: 50px;
-  width: 550px;
+  width: 700px;
   overflow: hidden;
   transition: 0.6s;
 }
@@ -46,16 +64,6 @@ ul {
   width: 100%;
   margin: 0;
   padding-left: 0;
-}
-
-li {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-  color: #212529;
-  font-weight: bold;
 }
 
 .btn_menu {
@@ -72,40 +80,46 @@ i {
   margin-right: 0.5em;
 }
 
+.fas {
+  color: crimson;
+}
+
+.crimson {
+  color: crimson;
+}
+
 /*******seccion sobre mi :S ********/
 .section_SobreMi {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  width: 60%;
+  width: 70%;
   font-family: sans-serif;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 5em;
 }
 
 .foto_SobreMi {
-  height: 170px;
-  width: 170px;
+  height: 220px;
+  width: 220px;
   border-radius: 50%;
   object-fit: cover;
 }
 
 .text_sobre_mi {
-  width: 450px;
-  color: #24252c;
+  width: 70%;
+  color: #fff;
   line-height: 1.5;
-  margin-bottom: 4.5em;
 }
 
 .Title_SobreMi {
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
-  color: #212529;
+  color: #fff;
   text-align: center;
-  font-size: 2em;
+  font-size: 2.5em;
   width: 100%;
+  font-weight: normal;
+  font-weight: normal;
 }
 
 .padding {
@@ -121,26 +135,20 @@ i {
 }
 
 .title_mas_SobreMi {
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
-  color: #212529;
+  color: #fff;
   text-align: center;
-  font-size: 2em;
+  font-size: 2.5em;
   width: 100%;
+  font-weight: normal;
   text-align: start;
-  color: #212529;
   margin-bottom: -1em;
   font-size: 1.7em;
 }
 
 .info_mas_sobreMi {
   width: 400px;
-  color: #24252c;
+  color: #fff;
   line-height: 1.5;
-}
-
-.frase {
-  color: #007bff;
 }
 
 /*******seccion de presentacion******/
@@ -151,45 +159,38 @@ i {
   flex-wrap: wrap;
   width: 100%;
   margin: auto;
-  font-family: sans-serif;
-  color: #212529;
-  font-weight: bold;
+  color: #fff;
   margin-bottom: 100px;
-  padding-top: 8em;
 }
 
 h1 {
-  font-size: 2.2em;
-  margin-bottom: -50px;
+  font-size: 2.5em;
+  margin-bottom: -40px;
 }
 
 h2 {
-  font-size: 3.7em;
-  margin-bottom: -10px;
+  font-size: 4em;
+  margin-bottom: -5px;
 }
 
 h3 {
-  font-size: 1.4em;
+  font-size: 1.7em;
   margin-bottom: 30px;
-}
-
-button {
-  outline: none;
-  border: none;
-  border-radius: 3px;
-  padding: 10px;
-  color: #fff;
-  margin-right: 20px;
-  font-size: 1em;
+  color: crimson;
   font-weight: normal;
 }
 
-.btn_sobre_mi {
-  background-color: #ffc107;
+.btn_sobremi {
+  background-color: crimson;
+  padding: 0.8em 1em;
+  border-radius: 1.5em;
+  margin-right: 1.5em;
 }
 
-.btn_donwloaded {
-  background-color: #007bff;
+.btn_download {
+  background-color: crimson;
+  padding: 0.8em 1em;
+  border-radius: 1.5em;
 }
 
 .img_presentation {
@@ -206,7 +207,7 @@ img {
 /********seccion de skills******/
 .section_skills {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   font-family: sans-serif;
@@ -217,147 +218,157 @@ img {
 
 .conte_skills {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  width: 80%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
-  color: #24252c;
+  color: #fff;
 }
 
 .title_skills {
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
-  color: #212529;
+  color: #fff;
   text-align: center;
-  font-size: 2em;
+  font-size: 2.5em;
   width: 100%;
+  font-weight: normal;
+  margin-bottom: 2em;
 }
 
 .icon-skills {
-  height: 100px;
-  width: 100px;
+  height: 170px;
+  width: 170px;
   padding: 10px;
-  margin-bottom: 20px;
   text-align: center;
+  background-color: #1a1a1a;
+  margin-bottom: 1.5em;
+  display: grid;
+  place-items: center;
+  box-shadow: 0 0 5px #111;
+  border-radius: 5px;
 }
 
-.icon {
-  font-size: 3em;
-  margin: auto;
-  margin-bottom: 10px;
-  background-color: #fff;
-}
-
-.html {
-  color: #e34c26;
-}
-
-.css {
-  color: #2965f1;
-}
-
-.javascript {
-  color: #f0db4f;
-}
-
-.bootstrap {
-  color: #4402cf;
+.icon-skill {
+  height: 70px;
+  width: 60px;
 }
 
 .sass {
-  color: #ee1d52;
-}
-
-.github {
-  color: #333;
+  width: 90px;
+  height: 80px;
 }
 
 .react {
-  color: cyan;
+  width: 85px;
+  height: 80px;
 }
 
 /******proyectos******/
 .section_proyectos {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
   font-family: sans-serif;
   margin-bottom: 100px;
   padding: 5em 20px;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  place-items: center;
+  gap: 2em;
+}
+
 .title_proyectos {
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
-  color: #212529;
+  color: #fff;
   text-align: center;
-  font-size: 2em;
+  font-size: 2.5em;
   width: 100%;
+  font-weight: normal;
+  display: block;
 }
 
 .proyectos {
-  height: 340px;
-  width: 400px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  height: 300px;
+  width: 100%;
   text-align: center;
   margin-bottom: 20px;
-  color: #24252c;
+  position: relative;
+  overflow: hidden;
+}
+
+.cart_buy {
+  background-color: #282c34;
+}
+
+.descripcion {
+  position: absolute;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  top: -100%;
+  background-color: #1a1a1a;
+  transition: 0.5s;
+}
+
+.proyectos:hover .descripcion {
+  top: 0;
 }
 
 .img_proyectos {
-  height: 200px;
-  width: 350px;
-}
-
-.img_temperatura2 {
-  height: 220px;
-  width: 250px;
-}
-
-.size_xl {
-  height: 220px;
+  height: 100%;
   width: 100%;
+}
+
+.web_halloween {
+  height: 300px;
   object-fit: cover;
-  border-radius: 3px;
+}
+
+.shoppin_card {
+  width: 90%;
+  height: 90%;
+  background-size: cover;
+}
+
+/*linear-gradient(
+  90deg,
+  rgba(2, 0, 36, 1) 0%,
+  rgba(9, 9, 121, 1) 0%,
+  rgba(0, 82, 255, 1) 100%,
+  rgba(3, 153, 216, 1) 100%
+)*/
+.app_task {
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(9, 9, 121) 0%, rgb(0, 82, 255) 100%, rgb(3, 153, 216) 100%);
 }
 
 .img_task {
   width: 250px;
-  height: 200px;
-  background-size: cover;
+  height: 250px;
+  object-fit: cover;
+  margin-top: 1.5em;
 }
 
 .link_proyectos {
   width: 100%;
 }
 
+.link_proyectos p {
+  margin-bottom: 1.5em;
+}
+
 .btn_demo {
-  outline: none;
-  border: none;
-  border-radius: 3px;
-  padding: 10px;
-  color: #fff;
-  margin-right: 20px;
-  font-size: 1em;
-  font-weight: normal;
-  background-color: #ffc107;
+  background-color: crimson;
+  padding: 0.6em 1.7em;
+  border-radius: 1.5em;
+  margin-top: 1em;
+  margin-right: 1em;
 }
 
 .btn_github {
-  outline: none;
-  border: none;
-  border-radius: 3px;
-  padding: 10px;
-  color: #fff;
-  margin-right: 20px;
-  font-size: 1em;
-  font-weight: normal;
-  background-color: #007bff;
+  background-color: crimson;
+  padding: 0.6em 1.5em;
+  border-radius: 1.7em;
+  margin-top: 1em;
 }
 
 .fab {
@@ -368,25 +379,109 @@ img {
   display: block;
 }
 
-.experimentos {
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
-  color: #212529;
-  text-align: center;
-  font-size: 2em;
-  width: 100%;
-  padding: 1em;
+.descritpion_proyectos {
+  font-size: 1.5em;
+  font-weight: normal;
 }
 
-.lista__experimentos {
+.title_experimentos {
+  color: #fff;
+  text-align: center;
+  font-size: 2.5em;
+  width: 100%;
+  font-weight: normal;
+}
+
+.experimentos {
+  position: relative;
+}
+
+.parent_box {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
 }
 
-.lista__experimentos article {
-  margin-bottom: 2em;
+.box__experimentos {
+  width: 220px;
+  height: 250px;
+  height: 250px;
+  width: 220px;
+  background-color: #1a1a1a;
+  border-radius: 0.1em;
+  overflow: hidden;
+  color: #fff;
+  border-radius: 20px;
+  display: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.box__experimentos img {
+  object-fit: cover;
+  height: 100%;
+  width: 220px;
+  width: 220px;
+  height: 100%;
+  position: absolute;
+}
+
+.box__experimentos p {
+  padding: 0.7em;
+}
+
+.title_card {
+  font-size: 1.1em;
+  margin: 0 0;
+}
+
+.btn_enlaces {
+  background-color: crimson;
+  padding: 0.5em 1em;
+  border-radius: 1.5em;
+}
+
+.color {
+  color: rgb(243, 243, 243);
+}
+
+.link_experimentos {
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.button_links {
+  background: crimson;
+  padding: 0.5em 1em;
+  border-radius: 10px;
+  color: #fff;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8em;
+  color: white;
+}
+
+.button_links svg {
+  height: 1rem;
+  width: 1rem;
+  margin-right: 0.5em;
+}
+
+.box__experimentos:hover .link_experimentos {
+  top: 50%;
 }
 
 /*****section contacto******/
@@ -396,12 +491,11 @@ img {
 }
 
 .title_contacto {
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
-  color: #212529;
+  color: #fff;
   text-align: center;
-  font-size: 2em;
+  font-size: 2.5em;
   width: 100%;
+  font-weight: normal;
 }
 
 .links_contacto {
@@ -411,12 +505,11 @@ img {
   flex-wrap: wrap;
   width: 80%;
   margin: auto;
-  font-family: sans-serif;
-  color: #24252c;
+  color: #fff;
 }
 
 .icon_contacto {
-  font-size: 2.2em;
+  font-size: 2.5em;
 }
 
 i {
@@ -425,27 +518,26 @@ i {
 
 .linkedin {
   color: #0e76a8;
-  font-size: 2.2em;
+  font-size: 2.5em;
 }
 
 .github {
   color: #333;
-  font-size: 2.2em;
+  font-size: 2.5em;
 }
 
 .instagram {
   color: #3f729b;
-  font-size: 2.2em;
+  font-size: 2.5em;
 }
 
 .youtube {
-  color: #c4302b;
-  font-size: 2.2em;
+  color: #c4100a;
+  font-size: 2.5em;
 }
 
 /*****footer****/
 .footer {
-  background-color: #212529;
   text-align: center;
   font-family: sans-serif;
   color: #fff;
@@ -470,9 +562,9 @@ i {
 .proloader .carga {
   height: 200px;
   width: 200px;
-  border-top: 1em solid #007bff;
-  border-left: 1em solid #007bff;
-  border-right: 1em solid #007bff;
+  border-top: 1em solid crimson;
+  border-left: 1em solid crimson;
+  border-right: 1em solid crimson;
   border-bottom: 1em solid transparent;
   border-radius: 50%;
   animation: rotar_prolader 1s infinite linear;
@@ -491,8 +583,13 @@ i {
   ul {
     flex-direction: row;
   }
+
+  .section_SobreMi {
+    display: grid;
+    place-items: center;
+  }
 }
-@media (max-width: 812px) {
+@media (max-width: 820px) {
   .btn_menu {
     display: block;
   }
@@ -515,6 +612,7 @@ i {
   .section_SobreMi {
     width: 100%;
     padding: 7px;
+    text-align: center;
   }
 }
 @media (max-width: 650px) {
@@ -529,14 +627,13 @@ i {
   .img_presentation img {
     object-fit: cover;
   }
-}
-@media (max-width: 1024px) {
-  .section_presentation {
-    flex-direction: column-reverse;
+
+  .foto_SobreMi {
+    margin: 0 auto;
   }
 
-  ul {
-    flex-direction: row;
+  .text_sobre_mi p {
+    width: 100%;
   }
 }
 @media (max-width: 812px) {
@@ -579,6 +676,11 @@ i {
 
   .container_diamond {
     margin: auto;
+  }
+
+  .section_SobreMi {
+    display: grid;
+    place-items: center;
   }
 }
 
